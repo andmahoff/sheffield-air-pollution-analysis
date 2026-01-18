@@ -35,4 +35,8 @@ The analysis was performed using **R version 4.5.2**.
     install.packages(c("tidyverse", "janitor", "openair", "ranger", "broom", "zoo", "writexl", "correlation", "corrplot", "FSA", "car", "lmtest", "sandwich","relaimpo", "openair","forecast", "ranger", "pdp"))
     ```
 4.  **Run the Script:**
-    Open `scripts/full_script.R` and click **"Run All"**.
+    Open `scripts/full_script.R`, set working directory to folder which contains downloaded raw weather and air pollution data e.g.
+     ```r
+    setwd("c:\\Users\\andmahoff user\\Documents\\Folder with raw air pollution and weather data")
+     ```
+    and click **"Run All"**.
