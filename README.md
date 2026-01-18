@@ -1,2 +1,38 @@
 # sheffield-air-pollution-analysis
 Repository for my data science course IJC437 module project.
+
+# Predicting Air Pollution Levels in Sheffield using Weather Data
+
+### Introduction
+Air pollution is a critical public health issue. It is associated with many health problems including asthma and lung cancer and it is estimated to account for around 29,000 to 43,000 deaths a year in the UK. Previous studies have shown that weather conditions have a big effect on air pollution levels.
+This project analyses daily weather and air quality data in Sheffield (2022–2024) to understand how meteorological conditions influence Nitrogen Dioxide ($NO_2$) levels in Sheffield. Using statistical modelling, I aim to quantify these relationships and build machine learning models to predcit NO2 levels in Sheffield using weather data only.
+
+### Research Questions
+* **RQ1:** Which weather variables are most strongly correlated with air pollution levels in Sheffield?
+* **RQ2.1:** To what extent can these weather variables predict air pollution levels in Sheffield?
+* **RQ2.2:** Are multilinear regression models or random forest models better at predicting air pollution levels in Sheffield?
+
+### Key Findings
+* **Key Drivers:** Wind speed is by far the strongest predictor of NO2 levels in Sheffield followed by temperature and daylight duration. Higher wind speeds significantly reduce pollution.
+* **Predictive power of weather data:** Weather data can predict NO2 levels in Sheffield fairly well. The multilinear regression model had an adjusted R squared value of 0.62 and relative prediction error of 29.1%. The random forest model had an OOB R squared value of 0.67 and relative prediction error of 27.7%.
+* **Random Forest:** The random forest model performed better than the multilinear regression model. This is because many of the weather variables had non-linear relationships with NO2.
+
+### The R Code
+The analysis was performed using **R version 4.5.2**.
+* **`data/`**: Contains the raw CSV files (weather and air pollution data).
+* **`scripts/`**: Contains `full_script.R` (The full project script).
+
+### Instructions for Downloading and Running the Project Code
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/sheffield-air-pollution-analysis.git](https://github.com/YOUR_USERNAME/sheffield-air-pollution-analysis.git)
+    ```
+2.  **Open the project:**
+    Open the `.Rproj` file in RStudio.
+3.  **Install dependencies:**
+    Run the following line in the R console to install required packages if you do not have them installed already:
+    ```r
+    install.packages(c("tidyverse", "janitor", "openair", "ranger", "broom", "zoo", "writexl",      "correlation", "corrplot", "FSA", "car", "lmtest", "sandwich","relaimpo", "openair",            "forecast", "ranger", "pdp"))
+    ```
+4.  **Run the Script:**
+    Open `scripts/full_script.R` and click **"Run All"**.
