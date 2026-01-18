@@ -21,8 +21,9 @@ This project analyses daily weather and air quality data in Sheffield (2022–20
 
 ### The R Code
 The analysis was performed using **R version 4.5.2**.
-* **`data/`**: Contains the raw CSV files (weather and air pollution data).
-* **`scripts/`**: Contains `full_script.R` (The full project script).
+* **`data/`**: Contains `air pollution complete.csv` and `weather data.csv` - the raw CSV files (air pollution and weather data).
+* **`scripts/`**: Contains `full_project_script.R` (The full project script).
+* Download these files and save them into the folder that will be your working directory. If you decide to rename the files, remember to change the import filenames in the R script later on.
 
 ### Instructions for Downloading and Running the Project Code
 1.  **Clone the repository:**
@@ -37,7 +38,7 @@ The analysis was performed using **R version 4.5.2**.
     install.packages(c("tidyverse", "janitor", "openair", "ranger", "broom", "zoo", "writexl", "correlation", "corrplot", "FSA", "car", "lmtest", "sandwich","relaimpo", "openair","forecast", "ranger", "pdp"))
     ```
 4.  **Run the Script:**
-    Open `scripts/full_script.R`, set working directory to folder which contains downloaded raw weather and air pollution data e.g.
+    Open `scripts/full_project_script.R`, set working directory to folder which contains downloaded raw weather and air pollution data e.g.
      ```r
     setwd("c:\\Users\\andmahoff user\\Documents\\Folder with raw air pollution and weather data")
      ```
