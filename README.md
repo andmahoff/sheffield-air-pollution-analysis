@@ -5,7 +5,6 @@ Repository for my data science course IJC437 module project.
 
 ### Introduction
 Air pollution is a critical public health issue. It is associated with many health problems including asthma and lung cancer and it is estimated to account for around 29,000 to 43,000 deaths a year in the UK. Previous studies have shown that weather conditions have a big effect on air pollution levels.
-
 This project analyses daily weather and air quality data in Sheffield (2022–2024) to understand how weather conditions influence Nitrogen Dioxide ($NO_2$) levels in Sheffield. I aim to explore and quantify the relationships between multiple weather variables and air pollution and build machine learning models to predict NO2 levels in Sheffield using weather data only.
 
 ### Research Questions
@@ -15,7 +14,9 @@ This project analyses daily weather and air quality data in Sheffield (2022–20
 
 ### Key Findings
 * **Key Drivers:** Wind speed is by far the strongest predictor of NO2 levels in Sheffield followed by temperature and daylight duration. Higher wind speeds significantly reduce pollution.
+
 * **Predictive power of weather data:** Weather data can predict NO2 levels in Sheffield fairly well. The multilinear regression model had an adjusted R squared value of 0.62 and relative prediction error of 29.1%. The random forest model had an OOB R squared value of 0.67 and relative prediction error of 27.7%.
+
 * **Random Forest:** The random forest model performed better than the multilinear regression model. This is because many of the weather variables had non-linear relationships with NO2.
 
 ### The R Code
