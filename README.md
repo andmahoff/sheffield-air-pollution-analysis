@@ -24,23 +24,21 @@ The analysis was performed using **R version 4.5.2**.
 The files to run this project are in the `sheffield_air_pollution_analysis` folder in this repository. The folder contains the subfolders:
 * **`data/`**: This contains `air pollution complete.csv` and `weather data.csv` - the raw CSV files (air pollution and weather data).
 * **`scripts/`**: This contains `full_project_script.R` (The full project script).
-Download these files and save them into the folder that will be your working directory. If you decide to rename the files, remember to change the import filenames in the R script later on.
 
 ### Instructions for Downloading and Running the Project Code
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/sheffield-air-pollution-analysis.git](https://github.com/YOUR_USERNAME/sheffield-air-pollution-analysis.git)
-    ```
-2.  **Open the project:**
-    Open the `.Rproj` file in RStudio or any R-language supporting IDE.
+1.  **Downloading the Project Files:**
+    Download the files from the `sheffield_air_pollution_analysis` folder and save them into the same folder that will be your working directory. If you decide to rename the files, remember to change the import filenames in the R script later on.
+2.  **Open the R language supporting IDE:**
+    Open the IDE in which you want to run the project R script. Remember to use R version 4.5.2
 3.  **Install dependencies:**
     Run the following line in the R console to install the required packages (if you do not have them installed already):
     ```r
     install.packages(c("tidyverse", "janitor", "openair", "ranger", "broom", "zoo", "writexl", "correlation", "corrplot", "FSA", "car", "lmtest", "sandwich","relaimpo", "openair","forecast", "ranger", "pdp"))
     ```
-4.  **Run the Script:**
-    Open `scripts/full_project_script.R`, set working directory to folder which contains downloaded raw weather and air pollution data e.g.
+4.  **Open the script and set working the working directory**
+     Open `scripts/full_project_script.R` and set the working directory to the folder which contains the downloaded raw weather and air pollution data e.g.
      ```r
     setwd("c:\\Users\\andmahoff user\\Documents\\Folder with raw air pollution and weather data")
      ```
-    and click **"Run All"**.
+5.  **Run the Script:**
+    Click **"Run All"** on your IDE.
