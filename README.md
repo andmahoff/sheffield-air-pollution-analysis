@@ -21,9 +21,9 @@ This project analyses daily weather and air quality data in Sheffield (2022–20
 
 ### The R Code
 The analysis was performed using **R version 4.5.2**.
-* The `sheffield_air_pollution_analysis` contains the following files:
-* **`data/`**: Contains `air pollution complete.csv` and `weather data.csv` - the raw CSV files (air pollution and weather data).
-* **`scripts/`**: Contains `full_project_script.R` (The full project script).
+The files to run this project are in the `sheffield_air_pollution_analysis` folder in this repository. The folder contains the subfolders:
+* **`data/`**: This contains `air pollution complete.csv` and `weather data.csv` - the raw CSV files (air pollution and weather data).
+* **`scripts/`**: This contains `full_project_script.R` (The full project script).
 * Download these files and save them into the folder that will be your working directory. If you decide to rename the files, remember to change the import filenames in the R script later on.
 
 ### Instructions for Downloading and Running the Project Code
