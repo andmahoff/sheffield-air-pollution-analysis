@@ -1,4 +1,4 @@
-# sheffield-air-pollution-analysis
+# sheffield_air_pollution_analysis
 Repository for my data science course IJC437 module project.
 
 # Predicting Air Pollution Levels in Sheffield using Weather Data
