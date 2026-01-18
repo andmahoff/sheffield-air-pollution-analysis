@@ -5,6 +5,7 @@ Repository for my data science course IJC437 module project.
 
 ### Introduction
 Air pollution is a critical public health issue. It is associated with many health problems including asthma and lung cancer and it is estimated to account for around 29,000 to 43,000 deaths a year in the UK. Previous studies have shown that weather conditions have a big effect on air pollution levels.
+
 This project analyses daily weather and air quality data in Sheffield (2022–2024) to understand how weather conditions influence Nitrogen Dioxide ($NO_2$) levels in Sheffield. I aim to explore and quantify the relationships between multiple weather variables and air pollution and build machine learning models to predict NO2 levels in Sheffield using weather data only.
 
 ### Research Questions
