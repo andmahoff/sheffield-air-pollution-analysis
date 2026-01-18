@@ -28,11 +28,11 @@ The analysis was performed using **R version 4.5.2**.
     git clone [https://github.com/YOUR_USERNAME/sheffield-air-pollution-analysis.git](https://github.com/YOUR_USERNAME/sheffield-air-pollution-analysis.git)
     ```
 2.  **Open the project:**
-    Open the `.Rproj` file in RStudio.
+    Open the `.Rproj` file in RStudio or any R-language supporting IDE.
 3.  **Install dependencies:**
     Run the following line in the R console to install required packages if you do not have them installed already:
     ```r
-    install.packages(c("tidyverse", "janitor", "openair", "ranger", "broom", "zoo", "writexl",      "correlation", "corrplot", "FSA", "car", "lmtest", "sandwich","relaimpo", "openair",            "forecast", "ranger", "pdp"))
+    install.packages(c("tidyverse", "janitor", "openair", "ranger", "broom", "zoo", "writexl", "correlation", "corrplot", "FSA", "car", "lmtest", "sandwich","relaimpo", "openair","forecast", "ranger", "pdp"))
     ```
 4.  **Run the Script:**
     Open `scripts/full_script.R` and click **"Run All"**.
