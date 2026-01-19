@@ -32,7 +32,7 @@ The files to run this project are in the `sheffield_air_pollution_analysis` fold
 ### Instructions for Downloading and Running the Project Code
 1.  **Downloading the Project Files:**
 
-    Download the files from the `sheffield_air_pollution_analysis` folder and save them into the same folder that will be your working directory. If you decide to rename the files, remember to change the import filenames in the R script later on.
+    Download the files from the [`sheffield_air_pollution_analysis`](https://github.com/andmahoff/sheffield_air_pollution_analysis/tree/main/sheffield_air_pollution_analysis) folder and save them into the same folder that will be your working directory. If you decide to rename the files, remember to change the import filenames in the R script later on.
 3.  **Open the R language supporting IDE:**
 
     Open the IDE in which you want to run the project R script. Remember to use R version 4.5.2
