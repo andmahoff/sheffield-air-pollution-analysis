@@ -15,12 +15,13 @@ This project analyses daily weather and air quality data in Sheffield (2022–20
 ### Key Findings
 * **Key Drivers:** Wind speed is by far the strongest predictor of NO2 levels in Sheffield followed by temperature and daylight duration. Higher wind speeds significantly reduce pollution.
 <div align="center"><img width="607" height="388" alt="correlation table picture" src="https://github.com/user-attachments/assets/3dab39fb-69f2-40f7-aca9-0b6c0e8ebf40" />
-<div align="center">* *Figure showing the correlation table found in this project between NO2 levels and weather variables in Sheffield*
+<div align="center">
+    * *Figure showing the correlation table found in this project between NO2 levels and weather variables in Sheffield*
 <div align="left">
     
-**Predictive power of weather data:** Weather data can predict NO2 levels in Sheffield fairly well. The multilinear regression model had an adjusted R squared value of 0.62 and relative prediction error of 29.1%. The random forest model had an OOB R squared value of 0.67 and relative prediction error of 27.7%.
+* **Predictive power of weather data:** Weather data can predict NO2 levels in Sheffield fairly well. The multilinear regression model had an adjusted R squared value of 0.62 and relative prediction error of 29.1%. The random forest model had an OOB R squared value of 0.67 and relative prediction error of 27.7%.
 
-**Random Forest:** The random forest model performed better than the multilinear regression model. This is because many of the weather variables had non-linear relationships with NO2.
+* **Random Forest:** The random forest model performed better than the multilinear regression model. This is because many of the weather variables had non-linear relationships with NO2.
 
 ### The R Code
 The analysis was performed using **R version 4.5.2**.
