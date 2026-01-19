@@ -14,7 +14,7 @@ This project analyses daily weather and air quality data in Sheffield (2022–20
 
 ### Key Findings
 * **Key Drivers:** Wind speed is by far the strongest predictor of NO2 levels in Sheffield followed by temperature and daylight duration. Higher wind speeds significantly reduce pollution.
-<div align="center"><img width="607" height="388" alt="correlation table picture" src="https://github.com/user-attachments/assets/3dab39fb-69f2-40f7-aca9-0b6c0e8ebf40" />
+<div align="center"><img width="607" height="388" alt="correlation table picture" src="https://github.com/user-attachments/assets/fbd1dc4d-8329-4d8d-9ea7-6a95a15b62b7" />
 <div align="center">
     <i>Figure showing the correlation table found in this project between NO2 levels and weather variables in Sheffield.</i>
 <div align="left">
